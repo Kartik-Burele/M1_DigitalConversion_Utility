@@ -1,7 +1,8 @@
 # Requirements
 
 # Introduction: 
-In digital electronics, the number system is used for representing the information. The number system has different bases and the most common of them are the decimal, binary, octal, and hexadecimal. Any digital system can understand only the optional number system. In these systems, digits symbols are used to represent different values. The system introduced in the project makes it easier to convert a data from one representation method/ number system to other. A person can convert data to a desired format with the help of this project in timely manner. Since, the digital logic circuitry requires numorous calculations of such type, it will be benificial to have such a system. 
+
+There are various number systems in digital electronics. Most common of them are decimal, binary, octal and hexadecimal. In this project the user will be able to convert a decimal number into other three number systems in few seconds.
 # Features:
 This system supports following types of data conversions (For positive integers): 
 | FROM | TO | TYPE |
@@ -82,5 +83,8 @@ This project can perform various calculations at the same and make user's task s
 ##  Low level Requirements
 | ID | Description | Status (Implemented/Future)|
 |:---:|:---:|:---:|
-|LLR-1|User shall be able to read the output data|Implemented| 
-
+|LLR-1_1|User shall be able to read the output data|Implemented| 
+|LLR-1_2|User shall be able to convert the decimal number into binary|Implemented|
+|LLR-1_3|User shall be able to convert the decimal number into octal|Implemented|
+|LLR-1_4|User shall be able to convert the decimal number into hexadecimal|Implemented|
+|LLR_2_1|User shall get correct output|Implemented|
