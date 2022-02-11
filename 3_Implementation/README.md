@@ -3,6 +3,8 @@
 ## Folder Structure
 Folder        | description
 --------------| ----------------------------------------------
+`documents`   | doxyfiles
 `inc`         | All header files
 `src`         | Main source code for Quiz
-`build`       | Build output (Not included in git)
+`test`        | test files
+`unity`       | unit testing files
