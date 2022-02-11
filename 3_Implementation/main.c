@@ -24,7 +24,7 @@ int main()
 {
     
     int temp;
-    printf("Enter the input number which has to be converted: \n");
+    printf("Please enter the decimal number which has to be converted: \n");
     scanf("%d", &temp);
     printf("\nOUTPUTS:\n\n");
     /**
