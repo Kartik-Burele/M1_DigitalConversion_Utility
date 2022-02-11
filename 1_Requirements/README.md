@@ -83,8 +83,7 @@ This project can perform various calculations at the same and make user's task s
 ##  Low level Requirements
 | ID | Description | Status (Implemented/Future)|
 |:---:|:---:|:---:|
-|LLR-1_1|User shall be able to read the output data|Implemented| 
-|LLR-1_2|User shall be able to convert the decimal number into binary|Implemented|
-|LLR-1_3|User shall be able to convert the decimal number into octal|Implemented|
-|LLR-1_4|User shall be able to convert the decimal number into hexadecimal|Implemented|
+|LLR-1_1|User shall be able to convert the decimal number into binary|Implemented|
+|LLR-1_2|User shall be able to convert the decimal number into octal|Implemented|
+|LLR-1_3|User shall be able to convert the decimal number into hexadecimal|Implemented|
 |LLR_2_1|User shall get correct output|Implemented|
