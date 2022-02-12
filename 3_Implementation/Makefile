@@ -4,7 +4,7 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/main.c\
+SRC = main.c\
 
 TEST_SRC = test/test.c\
 unity/unity.c
