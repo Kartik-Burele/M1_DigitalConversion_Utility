@@ -10,7 +10,7 @@ TEST_SRC = test/test.c\
 unity/unity.c
 
 INC = inc/binary.h inc/octal.h inc/hexadecimal.h
--Iunity
+	-Iunity
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
