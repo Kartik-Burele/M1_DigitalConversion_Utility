@@ -9,8 +9,10 @@ SRC = src/main.c\
 TEST_SRC = test/test.c\
 unity/unity.c
 
-INC = inc/binary.h inc/octal.h inc/hexadecimal.h
--Iunity
+#TEST_OUTPUT = $(BUILD_DIR)/Test_$(PROJ_NAME).out
+
+INC = -Iinc\
+-Iunity\
 
 #To check if the OS is Windows or Linux and set the executable file extension and delete command accordingly
 ifdef OS
