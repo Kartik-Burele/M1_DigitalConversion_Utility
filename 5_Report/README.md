@@ -70,6 +70,7 @@ This system supports following types of data conversions (For positive integers)
 |LLR-1_2|User shall be able to convert the decimal number into octal|Implemented|
 |LLR-1_3|User shall be able to convert the decimal number into hexadecimal|Implemented|
 |LLR_2_1|User shall get correct output|Implemented|
+***
 # Architecture<a name="architecture"></a>
 
 ## Tools 
@@ -82,6 +83,7 @@ This system supports following types of data conversions (For positive integers)
 
 ## Component structural diagram (HLR)
 ![Component_digital_conversion drawio](https://user-images.githubusercontent.com/98891749/153247604-057aeb0d-2bb7-4071-93e2-274e35d79591.png)
+***
 # Test plan<a name="testplan"></a>
 # High Level test plan
 
