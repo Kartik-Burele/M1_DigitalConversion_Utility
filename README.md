@@ -10,6 +10,9 @@ In this project, conversion from decimal to binary, decimal to octal, decimal to
 ## Cppcheck
 [![Code Quality - Static Code - Cppcheck](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/cppcheck.yml/badge.svg?branch=main)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/cppcheck.yml)
 
+## Unity Status
+[![Unit Testing - Unity](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/unity.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/unity.yml)
+
 ## Integrated tools to Github
 ![Codiga Dashboard](https://app.codiga.io/public/project/30975/M1_DigitalConversion_Utility/dashboard)
 ![Codacy_Dashboard](https://www.codacy.com/gh/Kartik-Burele/M1_DigitalConversion_Utility/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Kartik-Burele/M1_DigitalConversion_Utility&amp;utm_campaign=Badge_Grade)
