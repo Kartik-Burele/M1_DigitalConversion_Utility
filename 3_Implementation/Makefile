@@ -5,15 +5,11 @@ src/binary.c\
 src/hexadecimal.c\
 src/octal.c\
 
-<<<<<<< HEAD
 TEST_SRC=test/test.c\
 unity/unity.c\
 src/binary.c\
 src/hexadecimal.c\
 src/octal.c\
-=======
-#SRC = main.c\
->>>>>>> dbcafaa5bbf0065b0717a02c51ed6fb1082855fe
 
 INC=-Iinc\
 -Iunity\
@@ -32,13 +28,8 @@ else
 endif
 
 
-<<<<<<< HEAD
 Build:
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
-=======
-all:$(BUILD_DIR)
-	gcc -IC main.c  $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
->>>>>>> dbcafaa5bbf0065b0717a02c51ed6fb1082855fe
 
 run:Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
@@ -46,15 +37,8 @@ run:Build
 Build_test:
 	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC))
 
-<<<<<<< HEAD
 run_test:Build_test
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
-=======
-coverage: ${PROJECT_NAME}
-	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(INC)
->>>>>>> dbcafaa5bbf0065b0717a02c51ed6fb1082855fe
 
 staticcheck:
 	cppcheck --enable=all -iunity .
