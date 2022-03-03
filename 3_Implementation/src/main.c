@@ -9,11 +9,10 @@
  * 
  */
 
-#include <stdio.h>
-#include <string.h>
-#include "inc/binary.h"
-#include "inc/octal.h"
-#include "inc/hexadecimal.h"
+
+#include "binary.h"
+#include "octal.h"
+#include "hexadecimal.h"
 
 /**
  * @brief Main function

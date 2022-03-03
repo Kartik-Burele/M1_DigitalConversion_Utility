@@ -8,9 +8,11 @@
  * @copyright Copyright (c) 2022
  * 
  */
-
+#ifndef BINARY_H_
+#define BINARY_H_
 #include <stdio.h>
-
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * @brief Structures for storing the input & output stream
@@ -34,22 +36,24 @@ Conversion_bin transformBinary(Input_bin a);
  * @param a 
  * @return Conversion_bin 
  */
-Conversion_bin transformBinary(Input_bin a)
-{
-    int num = a.num, b = a.base;
-    int k = 0, store_num = num;
-    Conversion_bin res;
-    while (num != 0)
-    {
-        *(res.binary_op+k) = num % b;
-        num /= b;
-        k++;
-    }
-    res.arr_l = k;
-    if (store_num == 0)
-    {
-        *(res.binary_op) = 0;
-        res.arr_l = 1;
-    }
-    return res;
-}
+// Conversion_bin transformBinary(Input_bin a)
+// {
+//     int num = a.num, b = a.base;
+//     int k = 0, store_num = num;
+//     Conversion_bin res;
+//     while (num != 0)
+//     {
+//         *(res.binary_op+k) = num % b;
+//         num /= b;
+//         k++;
+//     }
+//     res.arr_l = k;
+//     if (store_num == 0)
+//     {
+//         *(res.binary_op) = 0;
+//         res.arr_l = 1;
+//     }
+//     return res;
+// }
+
+#endif

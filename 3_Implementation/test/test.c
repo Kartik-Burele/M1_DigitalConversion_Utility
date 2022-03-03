@@ -10,11 +10,11 @@
  */
 #include <string.h>
 #include <stdio.h>
-#include "K:\K_DOCS\LTTS Docs\M1_DigitalConversion_Utility\3_Implementation\inc\binary.h"
-#include "K:\K_DOCS\LTTS Docs\M1_DigitalConversion_Utility\3_Implementation\inc\octal.h"
-#include "K:\K_DOCS\LTTS Docs\M1_DigitalConversion_Utility\3_Implementation\inc\hexadecimal.h"
-#include "K:\K_DOCS\LTTS Docs\M1_DigitalConversion_Utility\3_Implementation\unity\unity.h"
-#include"K:\K_DOCS\LTTS Docs\M1_DigitalConversion_Utility\3_Implementation\unity\unity.c"
+#include "binary.h"
+#include "octal.h"
+#include "hexadecimal.h"
+#include "unity.h"
+// #include "unity.c"
 /**
  * @brief Set the Up object
  * 
