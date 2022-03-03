@@ -1,4 +1,4 @@
-name: C/C++ CI - Build Status
+name: Build Status
 
 on:
   push:
@@ -14,6 +14,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: make
-      run: make -C 3_Implementation/ all
-#     - name: make distcheck
-#       run: make distcheck
+      run: make -C 3_Implementation
+#   
