@@ -1,9 +1,9 @@
 # M1_DigitalConversion_Utility
 In this project, conversion from decimal to binary, decimal to octal, decimal to hexadecimal is executed.
 
-| Build Status | C/C++ CI | Cppcheck | Unity Status |
---- | --- | --- | ---
-[![Build Status](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Build.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Build.yml) | [![C/C++ CI](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/c-cpp.yml) | [![Cppcheck](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Static-check.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Static-check.yml) | [![Unit Testing - Unity](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/unity.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/unity.yml) |
+| Build Status | C/C++ CI | Cppcheck | Unity Status | Valgrind
+--- | --- | --- | --- | ---
+[![Build Status](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Build.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Build.yml) | [![C/C++ CI](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/c-cpp.yml) | [![Cppcheck](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Static-check.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Static-check.yml) | [![Unit Testing - Unity](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/unity.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/unity.yml) | [![Dynamic-check](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Dynamic-check.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Dynamic-check.yml)
 
 ## Integrated tools to Github
 ![Codiga Dashboard](https://app.codiga.io/public/project/30975/M1_DigitalConversion_Utility/dashboard)
