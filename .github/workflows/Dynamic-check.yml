@@ -13,8 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: apt install dependency
-      run: |
-        sudo apt-get -y install valgrind
+      run: sudo apt-get -y install valgrind
     - name: Dynamic Analysis
       run: make dynamiccheck -C 3_Implementation
  
