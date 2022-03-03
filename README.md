@@ -2,7 +2,7 @@
 In this project, conversion from decimal to binary, decimal to octal, decimal to hexadecimal is executed.
 
 ## Build Status
-[![C/C++ CI - Build Status](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/c-cpp.yml/badge.svg?branch=main)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/c-cpp.yml)
+[![Build Status](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Build.yml/badge.svg)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/Build.yml)
 
 ## Cppcheck
 [![Code Quality - Static Code - Cppcheck](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/cppcheck.yml/badge.svg?branch=main)](https://github.com/Kartik-Burele/M1_DigitalConversion_Utility/actions/workflows/cppcheck.yml)
