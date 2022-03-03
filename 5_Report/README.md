@@ -1,9 +1,18 @@
 # Report
+## Table of contents
+1. [Introduction](#Introduction)
+2. [SWOT analysis](#swot)
+3. [4W's and 1H](#4w1h)
+4. [Requirements](#Requirements)
+5. [Architecture](#architecture)
+6. [Test plan](#testplan)
+ 
 # Requirements
 
-# Introduction: 
+# Introduction: <a name="Introduction"></a>
 
 There are various number systems in digital electronics. Most common of them are decimal, binary, octal and hexadecimal. In this project the user will be able to convert a decimal number into other three number systems in few seconds.
+***
 # Features:
 This system supports following types of data conversions (For positive integers): 
 | FROM | TO | TYPE |
@@ -11,8 +20,10 @@ This system supports following types of data conversions (For positive integers)
 | Decimal | Binary | Number system with base 2 |
 | Decimal | Octal | Number system with base 8 |
 | Decimal | Hexadecimal | Number system with base 16 |
+***
 # Defining Our System
 ![Research_digital_conversion drawio](https://user-images.githubusercontent.com/98891749/153233462-865154bd-0b12-4cb6-800f-655b22ea39b8.png)
+***
 # Research:
 ![Table of digital conversion](https://user-images.githubusercontent.com/98891749/153230373-0faf5e9f-d927-46d8-806e-7e127da56b71.png)
 **Examples:**
@@ -34,46 +45,16 @@ This system supports following types of data conversions (For positive integers)
 |13	|1101|	15|	D|
 |14	|1110|	16|	E|
 |15	|1111|	17|	F|
-# SWOT Analysis: 
-## Strengths
+***
+# SWOT Analysis:<a name="swot"></a>
+![SWOT M1](https://user-images.githubusercontent.com/98891749/156187567-a90bd956-3b99-4511-b226-c16ab3e34541.png)
 
-* Resource Availability
-* Skill level
-* Research
-* Product development
-* Continuous integration
-## Weaknesses
+***
+# 4W's and 1H<a name="4w1h"></a>
+![4W1H Model M1](https://user-images.githubusercontent.com/98891749/156187673-247b4ed8-86fe-4ac6-9d18-b62f3bf63247.png)
+***
 
-* Timescale and deadlines
-* Gaps in knowledge and expertise
-* Processes
-## Opportunities
-
-* Optimization of current system
-* Enlargement of the system scope
-* Skill development
-## Threats
-
-* Obstacles to be faced
-* Competitive intensions
-* Emphasis on limited schemes
-# 4W's and 1H
-## Who
-
-Information technology students
-## What
-
-A person can convert data to a desired format with the help of this project in timely manner.
-## When
-
-At the initial stage of digital circuit designing operation.
-## Where
-
-This project can be used by students as well as circuit developers where such calculations are needed.
-## How
-
-This project can perform various calculations at the same and make user's task smooth and effortless.
-# Detail requirements
+# Detail requirements<a name="Requirements"></a>
 ## High Level Requirements
 | ID | Description | Status (Implemented/Future)|
 |:---:|:---:|:---:|
@@ -81,6 +62,7 @@ This project can perform various calculations at the same and make user's task s
 |HLR-2| System output must display data without any error |Implemented|
 |HLR-3| User shall be able to convert data between any number systems|Future|
 |HLR-4| User shall be able to convert a negative data value|Future|
+***
 ##  Low level Requirements
 | ID | Description | Status (Implemented/Future)|
 |:---:|:---:|:---:|
@@ -88,7 +70,8 @@ This project can perform various calculations at the same and make user's task s
 |LLR-1_2|User shall be able to convert the decimal number into octal|Implemented|
 |LLR-1_3|User shall be able to convert the decimal number into hexadecimal|Implemented|
 |LLR_2_1|User shall get correct output|Implemented|
-# Architecture
+***
+# Architecture<a name="architecture"></a>
 
 ## Tools 
 * [Draw.io](https://app.diagrams.net/)
@@ -100,6 +83,8 @@ This project can perform various calculations at the same and make user's task s
 
 ## Component structural diagram (HLR)
 ![Component_digital_conversion drawio](https://user-images.githubusercontent.com/98891749/153247604-057aeb0d-2bb7-4071-93e2-274e35d79591.png)
+***
+# Test plan<a name="testplan"></a>
 # High Level test plan
 
 | Test_ID | Description | Status |
