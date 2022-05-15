@@ -2,7 +2,7 @@
 
 # Introduction: 
 
-There are various number systems in digital electronics. Most common of them are decimal, binary, octal and hexadecimal. In this project the user will be able to convert a decimal number into other three number systems in few seconds.
+There are distinct number systems in digital electronics. Most common of them are decimal, binary, octal and hexadecimal. In this project the user will be able to convert a decimal number into three other number systems in a few seconds.
 ***
 # Features:
 This system supports following types of data conversions (For positive integers): 
